@@ -7,7 +7,7 @@ Stable tag: 4.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Google Books Importer provides easy interface for import of books from books.google.com using Google's API 
+Google Books Importer provides easy to use interface for import of books from books.google.com using Google's API 
 
 == Description ==
 This plugin imports data from books.google.com site using Google's API. Following data is pulled and can be imported to wordpress: 
