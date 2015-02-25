@@ -7,10 +7,10 @@ Stable tag: 4.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Google Books Importer provides easy interface for import of books from books.google.com using Google\'s API 
+Google Books Importer provides easy interface for import of books from books.google.com using Google's API 
 
 == Description ==
-This plugin imports data from books.google.com site using Google\'s API. Following data is pulled and can be imported to wordpress: 
+This plugin imports data from books.google.com site using Google's API. Following data is pulled and can be imported to wordpress: 
 
 id
 ----volume info----
@@ -39,13 +39,13 @@ epubacsTokenLink
 pdfdownloadlink
 webReaderLink
 
-Admin page provides easy to use interface where you can map fields and choose where data is going to be stored. Values can be stored as posts ( or other post type ) in posts table, categories ( for \"post\" type only ) and custom fields as postmeta 
+Admin page provides easy to use interface where you can map fields and choose where data is going to be stored. Values can be stored as posts ( or other post type ) in posts table, categories ( for "post" type only ) and custom fields as postmeta 
 
 
 
 == Installation ==
 1. Upload "google-books-importer.zip"  (unzipped) to the "/wp-content/plugins/" directory OR complete zip package in Plugins > Add New > Upload menu in admin of wordpress
-2. Activate the plugin through the \"Plugins\" menu in WordPress.
+2. Activate the plugin through the "Plugins" menu in WordPress.
 
 
 == Screenshots ==
