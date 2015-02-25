@@ -1,0 +1,22 @@
+
+.clearfix { clear:both; } 
+.gbi_top { margin-top:20px; max-width:1000px; overflow:hidden; } 
+
+#gbi_mapfields { margin:5px; width:45%; float:left; } 
+#gbi_searchoptions { margin:5px; width:40%; float:left; } 
+
+.gbi_search_area { margin-top:10px; } 
+.gbi_search_area input[type="text"] { width:300px; height:28px; }
+
+.gbi_fieldsmaparea, .gbi_optionsarea { display:none; }
+
+.gbi_results_area { margin-top:10px; max-width:1000px; } 
+.gbi_item { width:160px; height:220px; float:left; }
+.gbi_item_meta { width:140px; font-weight:bold; height:65px; overflow:hidden; } 
+
+#selectallbox { margin-bottom:10px; } 
+#importbox { float:right; } 
+
+.gbi_fieldsmaparea { padding:5px; }
+#gbi_mapfields select { min-width:100px; }
+.cfieldremove { text-decoration:none; } 
