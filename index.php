@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Google Books Importer
-Plugin URI: http://protocodezone.com
+Plugin URI: https://firescripts.net
 Description: Bulk import of books from Google Books
 Version: 1.0
 Author: Zarko
-Author URI: http://protocodezone.com
+Author URI: https://firescripts.net
 License: GPLv3
 */
 

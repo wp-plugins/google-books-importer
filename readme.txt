@@ -13,23 +13,25 @@ Google Books Importer provides easy to use interface for import of books from bo
 This plugin imports data from books.google.com site using Google's API. Following data is pulled and can be imported to wordpress: 
 
 id
-----volume info----
-title
-subtitle
-authors
-publisher
-publishedDate
-description
-pageCount
-categories
-averageRating
-smallThumbnail
-mediumImage
-largeImage
-thumbnail
-language
-previewLink
-infoLink
+<p>----volume info----</p>
+<ul>
+<li>title</li>
+<li>subtitle</li>
+<li>authors</li>
+<li>publisher</li>
+<li>publishedDate</li>
+<li>description</li>
+<li>pageCount</li>
+<li>categories</li>
+<li>averageRating</li>
+<li>smallThumbnail</li>
+<li>mediumImage</li>
+<li>largeImage</li>
+<li>thumbnail</li>
+<li>language</li>
+<li>previewLink</li>
+<li>infoLink</li>
+</ul>
 -----sale info ---
 saleability
 isEbook
