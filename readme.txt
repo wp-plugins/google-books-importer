@@ -44,6 +44,7 @@ Google Books Importer provides easy to use interface for import of books from bo
 </ul>
 <p>Admin page provides easy to use interface where you can map fields and choose where data is going to be stored. Values can be stored as posts ( or other post type ) in posts table, categories ( for "post" type only ) and custom fields as postmeta</p> 
 
+<p>Questions and support <a href="https://firescripts.net">here</a> or on wordpress forums</p>
 
 
 == Installation ==
