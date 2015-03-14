@@ -1,0 +1,22 @@
+
+.reftrack-container { background: white; border: 1px solid rgb(216, 216, 216); padding: 10px; margin-top: 15px; margin-right: 10px; }
+.reftrack-frame { padding:10px; background-color:#F7F7F7; border: 1px solid rgb(216, 216, 216); max-width:980px;  }
+.reftrack-addnewuser { display:none; margin-top:15px; margin-bottom:15px; }
+.reftrack-note { margin: 10px 0px 10px 0px !important; }
+
+.reftrack-userslist table .column-IP { width:10%; } 
+.reftrack-userslist table .column-username { width:12%; } 
+.reftrack-userslist table .column-visited_url { width:60%; } 
+.reftrack-userslist table .column-date { width:15%; } 
+
+@media(max-width:500px) { 
+	.reftrack-userslist table .column-IP { display:none; }
+	.reftrack-userslist table .column-username { width:20%; } 
+	.reftrack-userslist table .column-visited_url { width:80%; } 
+	.reftrack-userslist table .column-date { display:none; }
+}
+
+.reftrack-visitlist table .column-username { width:15%; }
+.reftrack-visitlist table .column-tracking_value { width:30%; }
+.reftrack-visitlist table .column-referral_link { width:50%; }
+.reftrack-visitlist .column-referral_link input.referral_link_value { width:95%; }
