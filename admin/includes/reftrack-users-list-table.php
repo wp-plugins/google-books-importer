@@ -66,8 +66,7 @@ class Reftrack_Users_List_Table extends WP_List_Table {
 		$per_page = 10;
 		$current_page = $this->get_pagenum();
 		$this->reflist = $affiliatesdb->get_all_users();
-		$this->found_data = $affiliatesdb->get_users_tabledata($per_page, $per_page * ($current_page - 1));
-		$this->items = $this->found_data;
+		$this->items = $affiliatesdb->get_users_tabledata($per_page, $per_page * ($current_page - 1));
 		$total_items = count($this->reflist);
 		
 		$columns = $this->get_columns();

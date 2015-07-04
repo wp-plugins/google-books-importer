@@ -3,7 +3,7 @@
  * Plugin Name: Referral Tracking
  * Plugin URI: https://firescripts.net
  * Description: This simple referrial tracking plugin will allow you to create affiliate link which you can give to anyone you want and later track actions of referred visitor throughout your website
- * Version: 1.0
+ * Version: 1.1
  * Author: Zarko
  * Author URI: https://firescripts.net
  * Text Domain: reftrack

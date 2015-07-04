@@ -41,13 +41,13 @@ class Reftrack_Visits_List_Table extends WP_List_Table {
 		
 		if(isset($_GET['user']) && is_numeric($_GET['user'])) { 
 			$this->visits = $visitsdb->get_visits_by('affiliates_id', $_GET['user']);
-			$this->found_data = $visitsdb->get_visits_tabledata_by_filter('affiliates_id', $_GET['user'], $per_page, $per_page * ($current_page - 1), $orderby, $order);
+			$found_data = $visitsdb->get_visits_tabledata_by_filter('affiliates_id', $_GET['user'], $per_page, $per_page * ($current_page - 1), $orderby, $order);
 		} else { 
 			$this->visits = $visitsdb->get_all_visits();
-			$this->found_data = $visitsdb->get_visits_tabledata($per_page, $per_page * ($current_page - 1), $orderby, $order);
+			$found_data = $visitsdb->get_visits_tabledata($per_page, $per_page * ($current_page - 1), $orderby, $order);
 		}
 		
-		$this->items = $this->found_data;
+		$this->items = $found_data;
 		$total_items = count($this->visits);
 
 		$columns = $this->get_columns();

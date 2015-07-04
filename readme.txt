@@ -3,11 +3,12 @@ Contributors: djuric
 Tags: reftrack, referral tracking, affiliate
 Donate link: https://firescripts.net
 Requires at least: 3.0.1
-Tested up to: 4.1.1
+Tested up to: 4.2.2
+Stable tag: 1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
-Using this plugin you can log visits of users who you give unique referral link and keep track of their actions on website 
+With this referral tracking plugin you can log visits of users who you give unique referral link and keep track of their actions on website
 
 
 == Description ==
@@ -23,3 +24,5 @@ Using this plugin you can log visits of users who you give unique referral link 
 = 1.0 =
 * Initial release.
 
+= 1.1 =
+* Pagination bug fixed
